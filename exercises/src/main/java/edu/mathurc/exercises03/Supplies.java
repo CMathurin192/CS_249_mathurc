@@ -20,6 +20,7 @@ public class Supplies {
             totalFood -= foodDec;
             return foodDec;
         }
+        return 0;
     }
 
     public String toString() {
