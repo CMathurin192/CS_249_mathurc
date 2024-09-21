@@ -17,6 +17,11 @@ public class Armada {
         int length_in_feet = parseLine.nextInt();
         int weight_in_pounds = parseLine.nextInt();
 
+        vessel.setName(vessel_name);
+        vessel.setLength(length_in_feet);
+        vessel.setWeight(weight_in_pounds);
 
+        String final_string = vessel.toString();
+        System.out.println(final_string);
     }
 }
