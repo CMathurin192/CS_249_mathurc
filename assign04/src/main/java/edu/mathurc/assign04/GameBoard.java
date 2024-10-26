@@ -23,7 +23,7 @@ public class GameBoard {
     public void clear() {
         for(int i = 0; i < rowCnt; i++) {
             for(int j = 0; j < colCnt; j++) {
-                character_array[i][j] = fillChar;
+                character_array[i][j] = fillChar; //
             }
         }
     }
