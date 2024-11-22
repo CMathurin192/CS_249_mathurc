@@ -6,8 +6,8 @@ public class Item implements Loadable {
     private int value = 0;
 
     public Item() {
-        String ID = "";
-        int value = 0;
+        ID = "";
+        value = 0;
     }
 
     public Item(String ID, int value) {
