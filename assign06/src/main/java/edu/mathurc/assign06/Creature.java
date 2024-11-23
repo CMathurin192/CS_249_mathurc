@@ -6,8 +6,6 @@ public abstract class Creature implements Loadable, Drawable {
     private int col = 0;
 
     protected Creature() {
-        row = 0;
-        col = 0;
     }
 
     protected Creature(int row, int col) {
@@ -28,7 +26,7 @@ public abstract class Creature implements Loadable, Drawable {
     }
 
     public void setCol(int col) {
-        this.row = col;
+        this.col = col;
     }
 
     public void load(Scanner input) throws GameFileException {

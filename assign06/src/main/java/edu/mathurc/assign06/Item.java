@@ -2,8 +2,8 @@ package edu.mathurc.assign06;
 import java.util.Scanner;
 
 public class Item implements Loadable {
-    private String ID = "";
-    private int value = 0;
+    private String ID;
+    private int value;
 
     public Item() {
         ID = "";
@@ -43,7 +43,7 @@ public class Item implements Loadable {
         catch(Exception e) {
             this.ID = "";
             this.value = 0;
-            throw new GameFileException("Error loading item", e);
+            throw new GameFileException("Error loading Item", e);
         }
     }
 }
